@@ -74,6 +74,20 @@ Provides contact information.
 
 ---
 
+# 📸 Screenshots
+
+## Login Page
+![Login](Images/login.png)
+
+## Dashboard
+![Dashboard](Images/dashboard.png)
+
+## Analytics Page
+![Analytics](Images/analytics.png)
+
+## Reports Page
+![Reports](Images/reports.png)
+
 ## 📊 Project Workflow
 
 User Login  
