@@ -4,9 +4,9 @@
 
 **Social Media Analytics** is a data analytics project developed to collect, process, analyze, and visualize social media data.
 
-The project uses **Python, API, SQL, and Power BI** to convert raw social media data into meaningful and interactive visual insights.
+The project uses **Python, API, SQL, and Power BI** to transform raw social media data into meaningful analytical insights and interactive visualizations.
 
-The Power BI dashboard helps analyze social media performance across different platforms using important engagement metrics such as **likes, comments, shares, posts, and engagement**.
+The Power BI dashboard provides an interactive view of social media performance across different platforms using key engagement metrics such as **posts, likes, comments, shares, and engagement**.
 
 ---
 
@@ -19,9 +19,9 @@ The main objectives of this project are:
 * To analyze social media data using SQL queries.
 * To create an interactive Power BI dashboard.
 * To compare performance across different social media platforms.
-* To analyze engagement and content performance.
-* To identify useful trends and patterns from social media data.
-* To present analytical results through clear and interactive visualizations.
+* To analyze content and engagement performance.
+* To identify useful trends and patterns.
+* To present analytical results through clear visualizations.
 
 ---
 
@@ -31,7 +31,7 @@ The main objectives of this project are:
 | ------------ | -------------------------------------------- |
 | **Python**   | Data collection, processing, and analysis    |
 | **API**      | Social media data collection                 |
-| **SQL**      | Data querying and analysis                   |
+| **SQL**      | Data querying and analytical analysis        |
 | **Power BI** | Interactive dashboard and data visualization |
 | **CSV**      | Dataset storage and data exchange            |
 
@@ -50,7 +50,7 @@ The main objectives of this project are:
               ↓
        Power BI Dashboard
               ↓
-      Interactive Visualization
+    Interactive Visualization
               ↓
        Social Media Insights
 ```
@@ -77,11 +77,9 @@ Social-Media-Analytics/
 │   └── Social_Media_Analytics_Dashboard.pbix
 │
 ├── Images/
-│   ├── analytics.png
-│   ├── dashboard.png
-│   ├── login.png
-│   ├── loginn.png
-│   └── reports.png
+│   ├── powerbi_dashboard.png
+│   ├── powerbi_content_analysis.png
+│   └── powerbi_platform_analysis.png
 │
 ├── README.md
 └── .gitattributes
@@ -91,31 +89,31 @@ Social-Media-Analytics/
 
 ## 🐍 Python & API
 
-Python is used for collecting and processing social media data.
+Python is used as an important part of the data collection and processing workflow.
 
-The project includes:
+### Python Responsibilities
 
 * API-based data collection
 * Data processing
-* Data preparation
-* Analytical calculations
+* Data cleaning and preparation
 * Dataset generation
+* Analytical calculations
 
 ### Python Files
 
-**`api_data_collection.py`**
+#### `api_data_collection.py`
 
-Used for collecting data through the API and preparing the collected dataset.
+This script is used for collecting social media data through the API and preparing the collected data for further analysis.
 
-**`analytics.py`**
+#### `analytics.py`
 
-Used for processing and analyzing the social media dataset.
+This script is used for processing and analyzing the social media dataset.
 
 ---
 
 ## 🗄️ SQL Analysis
 
-SQL is used to perform analytical queries on the collected social media data.
+SQL is used to query and analyze the collected social media data.
 
 The SQL analysis focuses on:
 
@@ -125,7 +123,8 @@ The SQL analysis focuses on:
 * Shares analysis
 * Engagement analysis
 * Content performance
-* Social media metric comparisons
+* Metric comparison
+* Social media performance analysis
 
 SQL queries are available in:
 
@@ -137,24 +136,24 @@ SQL/social_media_queries.sql
 
 ## 📊 Power BI Dashboard
 
-The Power BI dashboard provides an interactive visual representation of social media performance.
+The Power BI dashboard converts the processed social media data into interactive visual reports.
 
-### Dashboard Analysis
-
-The dashboard focuses on:
+### Dashboard Features
 
 * 📱 Platform-wise analysis
 * 👍 Likes analysis
 * 💬 Comments analysis
 * 🔄 Shares analysis
 * 📈 Engagement analysis
-* 📝 Content performance
-* 🔍 Interactive filtering using slicers
+* 📝 Content performance analysis
+* 🔍 Interactive slicers
 * 📊 Platform comparison
+* 🎯 KPI cards
+* 📌 Visual data summaries
 
 ### Power BI File
 
-The complete Power BI dashboard is available at:
+The complete Power BI dashboard is available in:
 
 ```text
 POWER BI/Social_Media_Analytics_Dashboard.pbix
@@ -164,7 +163,7 @@ POWER BI/Social_Media_Analytics_Dashboard.pbix
 
 ## 📈 Key Performance Metrics
 
-The dashboard analyzes important social media metrics including:
+The dashboard analyzes important social media performance metrics including:
 
 * **Total Posts**
 * **Total Likes**
@@ -173,59 +172,57 @@ The dashboard analyzes important social media metrics including:
 * **Engagement**
 * **Platform Performance**
 
-These metrics help understand the overall performance and engagement level of social media content.
+These KPIs help provide an overall understanding of social media activity and audience engagement.
 
 ---
 
 ## 🔍 Key Analysis
 
-The project performs analysis across different dimensions, including:
+### 📱 Platform Analysis
 
-### Platform Analysis
+The dashboard compares social media performance across different platforms to identify stronger-performing platforms.
 
-Comparison of social media performance across different platforms.
+### ❤️ Engagement Analysis
 
-### Engagement Analysis
+Likes, comments, shares, and other engagement metrics are analyzed to understand audience interaction.
 
-Analysis of user interaction through likes, comments, shares, and other engagement metrics.
+### 📝 Content Analysis
 
-### Content Analysis
+Content performance is analyzed to identify content that receives stronger audience engagement.
 
-Identification and comparison of content performance.
+### 📊 Performance Comparison
 
-### Performance Comparison
-
-Comparison of different social media metrics to understand which platforms and content perform better.
+Different social media metrics are compared to understand variations in platform and content performance.
 
 ---
 
 ## 💡 Key Insights
 
-The dashboard helps identify:
+The dashboard can help identify:
 
-* Which platform performs better based on engagement metrics.
-* Which platforms receive higher numbers of likes, comments, and shares.
+* Which platform performs better based on engagement.
+* Which platforms receive higher likes, comments, and shares.
 * Which content generates stronger audience interaction.
-* How engagement varies between platforms.
-* Which social media metrics contribute significantly to overall performance.
+* How engagement varies between different platforms.
+* Which metrics contribute significantly to overall performance.
 
-> **Note:** The final numerical insights depend on the dataset used in the dashboard.
+> **Note:** The exact numerical insights depend on the dataset used in the Power BI dashboard.
 
 ---
 
-## 📸 Dashboard Preview
+## 📸 Power BI Dashboard Preview
 
-### Dashboard
+### 📊 Main Dashboard
 
-![Social Media Analytics Dashboard](Images/dashboard.png)
+![Power BI Social Media Analytics Dashboard](Images/powerbi_dashboard.png)
 
-### Analytics
+### 📝 Content Analysis
 
-![Social Media Analytics](Images/analytics.png)
+![Power BI Content Analysis](Images/powerbi_content_analysis.png)
 
-### Reports
+### 📱 Platform Analysis
 
-![Social Media Reports](Images/reports.png)
+![Power BI Platform Analysis](Images/powerbi_platform_analysis.png)
 
 ---
 
@@ -235,7 +232,7 @@ The project contains datasets used for social media analysis.
 
 ### `social_media_data.csv`
 
-Contains the primary social media dataset used for analysis.
+Contains the primary social media dataset used for analysis and dashboard visualization.
 
 ### `api_data.csv`
 
@@ -248,7 +245,7 @@ Contains data collected through the API-based data collection process.
 This project helped develop practical knowledge of:
 
 * API-based data collection
-* Python programming for data analytics
+* Python programming
 * Data processing and preparation
 * SQL querying
 * Data analysis
@@ -268,9 +265,9 @@ The project can be further improved by:
 * Implementing real-time API data collection.
 * Automating Power BI data refresh.
 * Adding advanced engagement analysis.
-* Adding trend analysis.
+* Adding trend and time-series analysis.
 * Implementing predictive analytics.
-* Adding more interactive dashboard features.
+* Adding additional interactive dashboard features.
 
 ---
 
@@ -291,7 +288,9 @@ The project can be further improved by:
 * 🔹 SQL analytical queries
 * 🔹 Interactive Power BI dashboard
 * 🔹 Platform-wise social media analysis
-* 🔹 Engagement and content analysis
+* 🔹 Engagement analysis
+* 🔹 Content performance analysis
+* 🔹 KPI-based reporting
 * 🔹 Data-driven insights
 
 ---
@@ -300,4 +299,4 @@ The project can be further improved by:
 
 This repository contains the complete project resources, including:
 
-**Dataset + Python Scripts + API Data Collection + SQL Queries + Power BI Dashboard + Project Documentation**
+**Dataset + Python Scripts + API Data Collection + SQL Queries + Power BI Dashboard + Dashboard Screenshots + Project Documentation**
